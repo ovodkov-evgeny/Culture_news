@@ -86,6 +86,10 @@ button img {
 	text-transform: uppercase;
 }
 
+.menu-link:hover {
+	color: #ff7931;
+}
+
 .header-menu-link {
 	color: #000000;
 }
