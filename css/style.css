@@ -191,10 +191,8 @@ button img {
 	margin-top: 51px;
 	padding-top: 33px;
 	min-height: 523px;
+	background: url('../img/white_circle.svg') center no-repeat;
 	background-color: #f7f7f7;
-	background-image: url('../img/white_circle.svg');
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .tickets-wrapper {
