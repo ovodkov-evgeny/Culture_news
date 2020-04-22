@@ -1,0 +1,272 @@
+html, body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	color: #ffffff;
+	margin-top: 32px;
+	font-size: 72px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Playfair Display";
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+h3 {
+	color: #000000;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 47px;
+	margin-top: 25px;
+	background-color: #ff7931;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button img {
+	margin-left: 11px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.header-title {
+	margin-top: 60px;
+	color: #000000;
+	font-size: 35px;
+}
+
+.menu {
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.header-menu {
+	margin-top: 46px;
+}
+
+.footer-menu {
+	margin-top: 32px;
+}
+
+.menu-link {
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header-menu-link {
+	color: #000000;
+}
+
+.footer-menu-link {
+	color: #ffffff;
+}
+
+.main-news {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 370px;
+	padding: 47px 0;
+	margin-top: 47px;
+	background: url("/src/img/hotel.jpg") center no-repeat;
+}
+
+.main-news-hot {
+	visibility: hidden;
+	position: absolute;
+	top: 212px;
+	left: 135px;
+	width: 117px;
+	height: 25px;
+	background-color: #ff7931;
+	color: #ffffff;
+	font-family: 'Raleway';
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 55px;
+	height: 55px;
+	background-color: #ff7931;
+	border-radius: 50%;
+}
+.main-news-title {
+	margin-bottom: 0;
+}
+
+.main-news-descr {
+	width: 456px;
+	color: #ffffff;
+	margin-top: 139px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+}
+
+.reviews {
+	margin-top: 44px;
+}
+
+.reviews-wrapper {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.reviews-item, .tickets-item {
+	width: 370px;
+}
+
+.reviews-item-img {
+	margin-bottom: 20px;
+}
+
+.reviews-item-title, .tickets-item-title {
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 23px;
+}
+
+.reviews-item:nth-child(2) .reviews-item-title {
+	color: #ff7931;
+}
+
+.reviews-item-descr {
+	margin-top: 10px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.tickets {
+	margin-top: 51px;
+	padding-top: 33px;
+	min-height: 523px;
+	background-color: #f7f7f7;
+	background-image: url('/src/img/white_circle.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.tickets-wrapper {
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tickets-item-title {
+	margin-top: 24px;
+}
+
+.tickets-item:first-of-type .tickets-item-title {
+	margin-top: 0;
+}
+
+.tickets-item-descr {
+	height: 63px;
+	margin-top: 10px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.ticket-delim {
+	width: 100px;
+	height: 1px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-top: 0;
+	margin-bottom: 0;
+	opacity: 0.4;
+}
+
+.page-footer {
+	background-color: #575757;
+	margin-top: 50px;
+	padding-top: 26px;
+	padding-bottom: 46px;
+}
+
+.footer-title {
+	color: #ffffff;
+	font-size: 28px;
+	margin: 0;
+}
+
+.footer-delim {
+	margin-top: 45px;
+	height: 1px;
+	border: none;
+	background-color: #ffffff;
+	opacity: 0.4;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 41px;
+}
+
+.footer-social-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 47px;
+	height: 47px;
+	margin-left: 14px;
+	background-color: #ffffff;
+}
+
+.footer-social-item:first-child {
+	margin-left: 0;
+}
