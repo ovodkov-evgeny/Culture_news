@@ -46,7 +46,7 @@ button {
 
 button:hover {
 	cursor: pointer;
-	box-shadow: 2px 2px 5px black;
+	filter: brightness(130%);
 }
 
 button img {
@@ -167,7 +167,12 @@ button img {
 }
 
 .reviews-item, .tickets-item {
+	text-decoration: none;
 	width: 370px;
+}
+
+.reviews-item:hover .reviews-item-title {
+	color: #ff7931;
 }
 
 .reviews-item-img {
@@ -178,11 +183,6 @@ button img {
 	color: #000000;
 	font-family: "Playfair Display";
 	font-size: 23px;
-	text-decoration: none;
-}
-
-.reviews-item-title:hover {
-	color: #ff7931;
 }
 
 .reviews-item-descr {
