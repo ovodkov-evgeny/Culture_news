@@ -46,7 +46,7 @@ button {
 
 button:hover {
 	cursor: pointer;
-	box-shadow: 0 0 10px black;
+	box-shadow: 2px 2px 5px black;
 }
 
 button img {
@@ -127,6 +127,10 @@ button img {
 	text-align: center;
 }
 
+.main-news:hover .main-news-hot{
+	visibility: visible;
+}
+
 .logo {
 	display: flex;
 	justify-content: center;
@@ -174,9 +178,10 @@ button img {
 	color: #000000;
 	font-family: "Playfair Display";
 	font-size: 23px;
+	text-decoration: none;
 }
 
-.reviews-item:nth-child(2) .reviews-item-title {
+.reviews-item-title:hover {
 	color: #ff7931;
 }
 
@@ -268,6 +273,11 @@ button img {
 	height: 47px;
 	margin-left: 14px;
 	background-color: #ffffff;
+}
+
+.footer-social-item:hover {
+	background-color: #ff7931;
+	box-shadow: 0px 0px 10px white;
 }
 
 .footer-social-item:first-child {
