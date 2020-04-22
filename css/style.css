@@ -106,7 +106,7 @@ button img {
 	min-height: 370px;
 	padding: 47px 0;
 	margin-top: 47px;
-	background: url("/src/img/hotel.jpg") center no-repeat;
+	background: url("/img/hotel.jpg") center no-repeat;
 }
 
 .main-news-hot {
@@ -192,7 +192,7 @@ button img {
 	padding-top: 33px;
 	min-height: 523px;
 	background-color: #f7f7f7;
-	background-image: url('/src/img/white_circle.svg');
+	background-image: url('img/white_circle.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 }
