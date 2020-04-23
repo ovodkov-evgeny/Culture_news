@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Playfair Display";
+	font-family: "Playfair Display", serif;
 	letter-spacing: 1px;
 	text-align: center;
 }
@@ -46,7 +46,8 @@ button {
 
 button:hover {
 	cursor: pointer;
-	filter: brightness(130%);
+	background-color: #575757;
+	transform: scale(1.1);
 }
 
 button img {
@@ -69,6 +70,7 @@ button img {
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
+	flex-wrap: wrap;
 }
 
 .header-menu {
@@ -119,7 +121,7 @@ button img {
 	height: 25px;
 	background-color: #ff7931;
 	color: #ffffff;
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	line-height: 25px;
 	letter-spacing: 2px;
@@ -163,12 +165,22 @@ button img {
 .reviews-wrapper {
 	margin-top: 20px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .reviews-item, .tickets-item {
 	text-decoration: none;
 	width: 370px;
+}
+
+.reviews-item {
+	margin-left: 29px;
+}
+
+.reviews-item:first-child {
+	margin-left: 0;
 }
 
 .reviews-item:hover .reviews-item-title {
@@ -181,7 +193,7 @@ button img {
 
 .reviews-item-title, .tickets-item-title {
 	color: #000000;
-	font-family: "Playfair Display";
+	font-family: "Playfair Display", serif;
 	font-size: 23px;
 }
 
@@ -197,8 +209,7 @@ button img {
 	margin-top: 51px;
 	padding-top: 33px;
 	min-height: 523px;
-	background: url('../img/white_circle.svg') center no-repeat;
-	background-color: #f7f7f7;
+	background: radial-gradient(circle, #ffffff 353px, #F7F7F7 353px);
 }
 
 .tickets-wrapper {
